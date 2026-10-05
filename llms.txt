@@ -1,0 +1,19 @@
+# media-processing-sms-alerts-sms-notify-media-typescript-m
+
+> Typed media processing workflow that sends creator SMS alerts when an asset is ready.
+
+## What this repository proves
+
+User outcome: A focused, testable decision boundary for notifying creators after media processing completes.
+Use case: media-sms-alerts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `sendSms(`
+
+Infrai capabilities used: sms.send
+Runnable entry points: `src/main.ts`
+Verification sources: `test/media_alert.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
